@@ -1,0 +1,2 @@
+上面的CUDA_hillshade与hillshadecuda中，后者是主程序，前者是将shadow计算封装到GPU上加速计算部分,
+这里两个文件名命名有点问题，应该将hillshade替换成shadow，不过替换后在shadowcuda里import也要对应更改为CUDA_shadow
